@@ -31,7 +31,6 @@ div.border-nav {
 	background-color: #000;
 }
 
-
 /*hero*/
 
 section.hero {
@@ -90,4 +89,8 @@ div.card img.image-center {
 
 footer {
 	margin-top: 140px;
+}
+footer div.border-nav {
+    height: 25px;
+    background-color: #0f0f10;
 }
