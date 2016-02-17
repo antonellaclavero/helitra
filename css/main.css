@@ -14,6 +14,9 @@ h1 {
     font-weight: 600;
     padding: 0 2em;
 }
+a {
+	text-decoration: none;
+}
 section.hero {
 	padding: 65px 0 70px 0;
 }
@@ -56,6 +59,7 @@ div.card img.image-banner {
 .jacket-card h1 {
     line-height: 363px;
     background: url("../images/jackets.png") center top no-repeat;
+    color: #222;
 
 }
 .trench-card h1 {
