@@ -40,13 +40,35 @@ div.card img.image-banner {
 }
 
 /*cards with text*/
-
-/*.jackets-card {
+.shirt-card h1 {
 	color: #fff;
-    line-height: 71px;
-    margin: 0 0 2em 0;
-    background: transparent url("../images/circle.svg") center top no-repeat;
+	line-height: 366px;
+    background: url("../images/shirts.png") center top no-repeat;
     padding: 0 2em;
-    font-family: 'Montserrat', sans-serif;
-    float: left;
-*/
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14pt;
+    letter-spacing: 3px;
+}
+.jacket-card h1 {
+    line-height: 363px;
+    background: url("../images/jackets.png") center top no-repeat;
+    padding: 0 2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14pt;
+    letter-spacing: 3px;
+}
+.trench-card h1 {
+	color: #fff;
+	line-height: 363px;
+    background: url("../images/trenchs.png") center top no-repeat;
+    padding: 0 2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14pt;
+    letter-spacing: 3px;
+}
