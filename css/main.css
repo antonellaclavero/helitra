@@ -6,9 +6,16 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 body {
 	font-family: 'Open Sans', sans-serif;
 }
-
+h1 {
+	font-size: 14pt;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    padding: 0 2em;
+}
 section.hero {
-	padding: 65px 0 30px 0;
+	padding: 65px 0 70px 0;
 }
 section.hero img {
 	display: block;
@@ -23,7 +30,7 @@ section.container {
 }
 section.container div.column {
     float: left;
-    width: 260px;
+    /*width: 260px;*/
     margin-right: 80px;
 }
 section.container div.column.last {
@@ -40,35 +47,22 @@ div.card img.image-banner {
 }
 
 /*cards with text*/
+
 .shirt-card h1 {
 	color: #fff;
 	line-height: 366px;
     background: url("../images/shirts.png") center top no-repeat;
-    padding: 0 2em;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 14pt;
-    letter-spacing: 3px;
 }
 .jacket-card h1 {
     line-height: 363px;
     background: url("../images/jackets.png") center top no-repeat;
-    padding: 0 2em;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 14pt;
-    letter-spacing: 3px;
+
 }
 .trench-card h1 {
 	color: #fff;
 	line-height: 363px;
     background: url("../images/trenchs.png") center top no-repeat;
-    padding: 0 2em;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 14pt;
-    letter-spacing: 3px;
+}
+footer {
+	margin-top: 140px;
 }
