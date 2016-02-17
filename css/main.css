@@ -30,7 +30,6 @@ section.container {
 }
 section.container div.column {
     float: left;
-    /*width: 260px;*/
     margin-right: 80px;
 }
 section.container div.column.last {
