@@ -39,13 +39,14 @@ section.hero img {
 /*cards collection*/
 
 section.container {
-    padding: 0 19%;
+    padding: 0 260px;
     overflow: auto;
+    margin-left: 5%;
 }
 section.container div.column {
     float: left;
     width: 260px;
-    margin-right: 7%;
+    margin-right: 6%;
 }
 section.container div.column.last {
     margin: 0;
@@ -54,7 +55,7 @@ div.card {
 	margin-bottom: 60px;
 }
 div.card img.image-center {
-	padding: 37px 18% 0;
+	padding: 37px 2% 0;
 }
 div.card img.image-banner {
 	margin-top: 18px;
